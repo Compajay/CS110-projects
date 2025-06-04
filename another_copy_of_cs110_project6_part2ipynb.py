@@ -63,6 +63,7 @@ word_counts = Counter(words)
 print("Top 15 words without preprocessing:")
 print(word_counts.most_common(15))
 
+# importing spacy
 import spacy
 
 # Load English NLP model
