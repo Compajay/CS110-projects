@@ -1,0 +1,153 @@
+/* Jayden Skyy Zarate */
+/* please make sure you change the name of this file to styles.css */
+/* Global Styles */
+
+h1 {
+    text-align:center;
+    border: 2px solid darkblue;
+}
+* {
+
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 8000px;
+    margin: 2 cen;
+    padding: 10px;
+    position: relative;
+    }
+    /* Background Image with Transparency */
+    /* need position: fixed; and top: 0; left: 0; */
+    body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+    }
+    body {
+        background-image: url("hawaii-beach-night-1.jpg");
+        font-family: Arial, sa
+    }
+    
+    h1 {
+        text-align:center;
+        border: 2px solid grey;
+    background-color: rgba(158, 159, 146, 0.77)
+    
+    }
+
+ li:hover{
+    
+    transform: translateX(10px); 
+ }
+  
+
+ img {
+    
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(158, 159, 146, 0.77) }
+
+    ul {
+        list-style-type: disc; /* Default bullet point */
+        border: 2px solid grey}
+    ul    {
+        border: 2px solid grey;
+    background-color: rgba(158, 159, 146, 0.77)
+      }
+
+footer {
+    background-color: rgba(158, 159, 146, 0.77);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* or space-between, etc. */
+    align-items: flex-start; /* or center */
+  }
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 600px) {
+    .experience-container {
+      flex-direction: column;
+    }
+ }
+ h2 {
+    align-items: center;
+ }
+
+ .problem {
+    border: 2px solid rgb(171, 171, 171);
+    background-color: rgb(170, 181, 179);
+    border-radius: 15px;
+    padding: 10px;
+
+  }
+  .problem:hover{
+    transform: translateX(10px); 
+  }
+.team {
+    border: 2px solid rgb(171, 171, 171);
+    background-color:rgb(171, 171, 171);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .team:hover{ 
+     transform: translateX(10px); 
+}
+
+.time {
+    
+    border: 2px solid rgb(171, 171, 171);
+    background-color: rgb(171, 171, 171);
+    border-radius: 15px;
+    padding: 10px;
+    }
+    .time:hover{
+        transform: translateX(10px); }
+
+
+.html {  
+    border: 2px solid rgb(171, 171, 171);
+    background-color: rgb(170, 181, 179);
+    border-radius: 15px;
+    padding: 10px;
+      }
+.HTML:hover{
+    transform: translateX(10px); 
+}
+.found {
+    border: 2px solid rgb(171, 171, 171);
+    background-color: rgb(170, 181, 179);
+    border-radius: 15px;
+    padding: 10px;
+}
+.found:hover {
+    transform: translateX(10px); 
+}
+
+  
+
